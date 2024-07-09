@@ -5,6 +5,7 @@ import { Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import ProductDetail from "./pages/Product";
 import Cart from "./pages/Cart";
+import NotFound from "./pages/404";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Route index element={<Home />} />
         <Route path="/product/:slug" element={<ProductDetail />} />
         <Route path="/cart" element={<Cart />} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
     </Layout>
   );
