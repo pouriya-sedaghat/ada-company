@@ -31,7 +31,7 @@ function Cart() {
             <div className="d-flex flex-sm-row flex-column align-items-center gap-2 flex-sm-grow-1">
               <div className="w-cart ratio ratio-1x1">
                 <Image
-                  src={item.image}
+                  src={`/ada-company/${item.image}`}
                   alt={item.title}
                   fluid
                   className="object-fit-contain"

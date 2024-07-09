@@ -47,7 +47,11 @@ function ProductDetail() {
     <Row>
       <Col xs={12}>
         <div className="w-res text-center mx-auto">
-          <Image src={product.image} alt={product.title} fluid />
+          <Image
+            src={`/ada-company/${product.image}`}
+            alt={product.title}
+            fluid
+          />
         </div>
         <div>
           <h2 className="h5">{product.title}</h2>

@@ -48,7 +48,7 @@ function ProductItem({ pItem }: { pItem: Product }) {
         className="d-block mx-auto mb-1 ratio ratio-16x9"
       >
         <Image
-          src={pItem.image}
+          src={`/ada-company/${pItem.image}`}
           alt={pItem.title}
           fluid
           className="object-fit-contain"
