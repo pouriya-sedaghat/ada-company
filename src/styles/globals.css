@@ -1,0 +1,38 @@
+* {
+  font-size: calc(0.8rem + 0.2vw) !important;
+}
+h1 {
+  font-size: calc(0.8rem + 0.55vw) !important;
+}
+h2 {
+  font-size: calc(0.8rem + 0.35vw) !important;
+}
+.outline-0 {
+  outline: 0;
+}
+
+.w-15 {
+  width: 15% !important;
+}
+
+.w-fit {
+  width: fit-content !important;
+}
+
+@media all and (max-width: 992px) {
+  .w-res {
+    width: 45% !important;
+  }
+  .w-cart {
+    width: 40% !important;
+  }
+}
+
+@media all and (min-width: 992px) {
+  .w-res {
+    width: 27% !important;
+  }
+  .w-cart {
+    width: 18% !important;
+  }
+}
