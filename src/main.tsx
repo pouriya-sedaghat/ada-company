@@ -6,16 +6,16 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap-icons/font/bootstrap-icons.min.css";
 import "./styles/globals.css";
 
-import { BrowserRouter } from "react-router-dom";
+import { HashRouter } from "react-router-dom";
 
 import { StoreProvider } from "./redux/StoreProvider";
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
-    <BrowserRouter>
+    <HashRouter>
       <StoreProvider>
         <App />
       </StoreProvider>
-    </BrowserRouter>
+    </HashRouter>
   </React.StrictMode>
 );
