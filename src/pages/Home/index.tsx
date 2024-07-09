@@ -54,7 +54,7 @@ function Home() {
       <Row>
         <Col xs={12} className="mb-2">
           <div className="d-flex gap-1 border border-secondary rounded px-3 py-2 mb-2">
-            <i className="bi bi-bag-fill align-self-baseline"></i>
+            <i className="bi bi-bag-fill"></i>
             <input
               type="search"
               value={search}
