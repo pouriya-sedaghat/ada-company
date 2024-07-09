@@ -53,14 +53,14 @@ function Home() {
     <>
       <Row>
         <Col xs={12} className="mb-2">
-          <div className="d-flex border border-secondary rounded px-3 py-2 mb-2">
+          <div className="d-flex gap-1 justify-content-center border border-secondary rounded px-3 py-2 mb-2">
             <i className="bi bi-bag-fill"></i>
             <input
               type="search"
               value={search}
               placeholder="Search for the title you want: Bag, Shoes, ..."
               onChange={(e) => setSearch(e.target.value)}
-              className="flex-grow-1 border-0 outline-0 bg-transparent ms-1 px-2"
+              className="flex-grow-1 border-0 outline-0 bg-transparent px-2"
             />
           </div>
           <div className="d-flex flex-wrap gap-1 justify-content-between align-items-center">
